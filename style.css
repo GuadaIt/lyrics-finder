@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #151514;
+  color: #91918D;
+  font-family: monospace;
+}
+
+header {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 50px;
+  text-shadow: -2px -2px #ff4500;
+  font-weight: lighter;
+  text-align: center;
+}  
+
+header p {
+  margin-top: 20px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding: 20px;
+}
+
+main form {
+  margin-bottom: 50px;
+  min-width: 80%;
+}
+
+main form input {
+  font-size: 20px;
+  padding-left: 5px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ff4500;
+}
+
+main section {
+  min-width: 80%;
+  font-size: 20px;
+}
+
+.suggestions-sec ul {
+  list-style: none;
+  width: 100%;
+}
+
+.suggestions-sec ul li {
+  height: 30px;
+  border-bottom: 1.5px solid #ff4500;
+}
+
+.suggestions-sec ul li:hover {
+  cursor: pointer;
+  background-color: #424240;
+}  
+
+#lyrics {
+  font-size: 16px;
+  line-height: 1;
+}
+
+#lyrics h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}

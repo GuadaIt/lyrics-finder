@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lyrics Finder</title>
+  <link href="./style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Lyrics Finder</h1>
+    <p>Powered by: api.lyrics.ovh</p>
+  </header>
+
+  <main>
+    <form class="searchForm">
+      <input type="text" placeholder="Type the song you want the lyrics for..." class="search-query">
+    </form>
+
+    <section class="suggestions-sec">
+      <ul id="suggestions"></ul>
+    </section>
+    <section id="lyrics"></section>
+  </main>
+
+  <script src="lyrics.js"></script>
+</body>
+
+</html>
